@@ -10,7 +10,7 @@ def hello(bot, update):
         'Hello {}'.format(update.message.from_user.first_name))
 
 
-updater = Updater('YOUR TOKEN HERE')
+updater = Updater('787053848:AAF_lcSiJTT0AAIWKX5KmAwbHfxVcTh_KwM')
 
 updater.dispatcher.add_handler(CommandHandler('hello', hello))
 
